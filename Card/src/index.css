@@ -7,7 +7,7 @@ body{
 
 .card{
 
-  height: 400px;
+  height: 390px;
   width: 300px;
   padding: 0.5rem;
   text-align: justify;
@@ -27,5 +27,21 @@ body{
   border: 2px solid white;
   border-radius: 50%;
 
+}
+
+.card .button {
+
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgb(23, 10, 169);
+}
+
+.card .button:hover{
+
+  border: 2px solid yellow;
+  background-color: rgb(252, 0, 42);
 }
 
