@@ -4,9 +4,10 @@ function App() {
 
   return (
     <>
-      <List />
+      <List items={fruits} category="Fruits"/>
+      <List items={vegetable} category="Vegetables"/>
     </>
-  )
+  );
 }
 
 export default App
