@@ -1,0 +1,60 @@
+
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.stopwatch{
+
+    height: 200px;
+    width: 400px;
+    margin: 3rem auto;
+    border: 2px solid white;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.display{
+
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.start-button, .stop-button, .reset-button{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 40px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.start-button{
+    
+    
+    color: #fff;
+    background-color: rgb(6, 163, 6);
+}
+.stop-button{
+    
+    
+    color: #fff;
+    background-color: rgb(234, 36, 36);
+}
+.reset-button{
+    
+    
+    color: #fff;
+    background-color: royalblue;
+}
